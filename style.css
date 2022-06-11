@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    box-sizing: border-box; /* para alinhar o botao e o input */
+}
+
+#container {
+    margin-top: 50px;
+    width: 80%;
+    max-width: 350px;
+    margin-inline: auto;
+    border: 1.5px solid purple;
+    border-radius: 3%;
+    padding: 25px;
+    box-shadow: 0 0 1em rgb(251, 177, 238);
+    backdrop-filter: blur(3px);
+  }
+
+body {
+    background-image: url(./imagem/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+h1 {
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+input, button {
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+input {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(107, 60, 148);
+    margin-bottom: 20px;
+}
+
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+  }
+
+footer {
+    font-size: 10px;
+    margin-top: 25px;
+}  
+
+#resposta {
+    margin-top: 30px;
+    transition: opacity 1s;
+}
+
+#resposta div {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0,9;
+    margin-bottom: 10px;
+}
